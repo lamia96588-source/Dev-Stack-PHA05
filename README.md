@@ -1,16 +1,56 @@
-# React + Vite
+# Dev Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Dev Stack is a responsive React website where users can explore web development technologies and build their own technology stack.
 
-Currently, two official plugins are available:
+Users can view technology details, add technologies to their stack, remove them, and clear the entire stack.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Responsive navbar for desktop and mobile
+- Hero section with CTA buttons
+- Technology cards with details
+- Technologies loaded from JSON
+- Add and remove technologies
+- Prevent duplicate technologies
+- Remove all technologies
+- Toast notifications
+- Loading state
+- Responsive design
+- Footer with navigation links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the Oxlint configuration
+- React
+- JavaScript
+- Vite
+- Tailwind CSS
+- DaisyUI
+- React Toastify
+- JSON
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## How to Run Locally
+
+1. Clone the repository.
+2. Open the project folder in your terminal.
+3. Install dependencies:
+
+```bash
+npm install
+
+Start the development server:
+
+npm run dev
+Open the local URL in your browser.
+
+FAQ
+1. Where can we deploy the site?
+The site can be deployed on Netlify, Vercel, Cloudflare Pages, or any other hosting platform.
+
+2. Do we have to use TypeScript?
+No. JavaScript is completely fine for this project.
+
+3. Can we change the title, logo, and colors?
+Yes. The title, logo, and colors can be customized as long as they are relevant to the project.
+
+4. Where do we get the technology logos/icons?
+Technology icons can be collected from different sources using image URLs. I used icon URLs in the JSON data for this project.
