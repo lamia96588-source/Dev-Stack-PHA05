@@ -30,7 +30,7 @@ function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900">Product</h4>
+            <h4 className="text-sm font-bold uppercase tracking-wider text-slate-900">Product</h4>
             <ul className="mt-4 space-y-3 text-sm text-slate-600">
               <li><a href="#home" className="hover:text-slate-900">Home</a></li>
               <li><a href="#technologies" className="hover:text-slate-900">Technologies</a></li>
@@ -39,7 +39,7 @@ function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900">Company</h4>
+            <h4 className="text-sm font-bold uppercase tracking-wider text-slate-900">Company</h4>
             <ul className="mt-4 space-y-3 text-sm text-slate-600">
               <li><a href="#" className="hover:text-slate-900">About</a></li>
               <li><a href="#" className="hover:text-slate-900">Contact</a></li>
@@ -48,7 +48,7 @@ function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900">Legal</h4>
+            <h4 className="text-sm font-bold uppercase tracking-wider text-slate-900">Legal</h4>
             <ul className="mt-4 space-y-3 text-sm text-slate-600">
               <li><a href="#" className="hover:text-slate-900">Privacy Policy</a></li>
               <li><a href="#" className="hover:text-slate-900">Terms of Service</a></li>
