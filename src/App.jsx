@@ -2,7 +2,7 @@ import { ToastContainer } from 'react-toastify'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Technologies from './components/technologies'
-//import Footer from './components/Footer'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Technologies />
+      <Footer />
       <ToastContainer position="bottom-right" autoClose={2000} />
     </div>
   )
