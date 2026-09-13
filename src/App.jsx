@@ -1,7 +1,7 @@
 import { ToastContainer } from 'react-toastify'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-//import Technologies from './components/Technologies'
+import Technologies from './components/Technologies'
 //import Footer from './components/Footer'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
-      
+      <Technologies />
       <ToastContainer position="bottom-right" autoClose={2000} />
     </div>
   )
