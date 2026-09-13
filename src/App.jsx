@@ -1,7 +1,7 @@
 import { ToastContainer } from 'react-toastify'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Technologies from './components/Technologies'
+import Technologies from './components/technologies'
 //import Footer from './components/Footer'
 
 function App() {
